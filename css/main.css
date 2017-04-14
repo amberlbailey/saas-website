@@ -1,0 +1,25 @@
+html {
+  font-family: 'Lato', sans-serif;
+  color: #3b393b;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #42c2bd;
+  text-align: center;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+li a:hover {
+  color: #fff;
+  background-color: #26726F;
+  padding: .5rem;
+}
