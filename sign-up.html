@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Typeworks.</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="grid grid-middle pad-b-2">
+      <h1 class="unit xs-1 s-1 m-1-3 push-0 pad-t-1-2 peta">Typeworks.</h1>
+      <nav class="unit xs-1 s-1 m-2-3">
+        <ul class="push-none giga">
+          <li class="island-1-2 gutter-1 mega"><a href="pricing.html">Pricing</a></li>
+          <li class="island-1-2 gutter-1 mega"><a href="features.html">Features</a></li>
+          <li class="island-1-2 gutter-1 mega"><a href="current">Sign Up</a></li>
+          <li class="island-1-2 gutter-1 mega"><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pad-bottom">
+      <h2 class="pad-t-2 zetta push-0">Sign Up</h2>
+      <p class="mega">Join The font family</p>
+    </div>
+  </header>
+
+  <form class="grid gutter-1-2" method="POST" action="#">
+
+    <fieldset class="wrapper">
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-top pad-bottom">
+        <label class="push-1-8" for="name"> Full name</label>
+        <input id="name" name="name">
+      </div>
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-bottom">
+        <label class="push-1-8" for="username"> Username</label>
+        <input type="username" name="username">
+        <label for="name" class="italic micro pad-t-1-4"> Must be 8 characters and contains one capital letter and number</label>
+      </div>
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom">
+        <label class="push-1-8" for="date"> Date of birth</label>
+        <input type="date" name="date" id="date">
+      </div>
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-bottom">
+        <label class="push-1-8" for="name"> T-shirt size</label>
+        <select class="size" name="size">
+          <option value=""> Select a t-shirt size</option>
+          <option value=""> Fitted: XS</option>
+          <option value=""> Fitted: S</option>
+          <option value=""> Fitted: M</option>
+          <option value=""> Fitted: L</option>
+          <option value=""> Fitted: XL</option>
+          <option value=""> Straight-cut: XS</option>
+          <option value=""> Straight-cut: S</option>
+          <option value=""> Straight-cut: M</option>
+          <option value=""> Straight-cut: L</option>
+          <option value=""> Straight-cut: XL</option>
+        </select>
+      </div>
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-bottom">
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+
+      <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-bottom">
+        <label for="number"> Phone number</label>
+        <input type="tel" name="number" id="number">
+      </div>
+    </fieldset>
