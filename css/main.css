@@ -15,7 +15,6 @@ h1,nav,h2,h3 {
 header {
   background-color: #90aec0;
   text-align: center;
-
 }
 
 header,p {
@@ -39,4 +38,16 @@ li a:hover {
   border-radius: 10px;
   border: none;
 }
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  transform: translate(-50%. -50%);
+  top: 10%;
+  left: 20%;
 }
