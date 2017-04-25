@@ -7,9 +7,19 @@ body {
   margin: 0;
 }
 
+h1,nav,h2,h3 {
+  font-family: 'Kalam', cursive;
+}
+
+
 header {
   background-color: #90aec0;
   text-align: center;
+
+}
+
+header,p {
+  font-family: 'Lato', sans-serif;
 }
 
 li, a {
@@ -22,4 +32,11 @@ li a:hover {
   color: #fff;
   background-color: #26726F;
   padding: .5rem;
+}
+
+.btn {
+  background-color: #15114c;
+  border-radius: 10px;
+  border: none;
+}
 }
