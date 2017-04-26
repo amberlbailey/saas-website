@@ -7,8 +7,9 @@ body {
   margin: 0;
 }
 
-h1,h3 {
-  font-family: 'Kalam', cursive;
+#fixed {
+  width:70px;
+  height:65px;
 }
 
 h2 {
@@ -19,7 +20,7 @@ h2 {
   color: #fff;
 }
 
-span, h1 {
+span, h1, h3 {
   color: #f7882f;
   font-family: 'Kalam', cursive;
 }
