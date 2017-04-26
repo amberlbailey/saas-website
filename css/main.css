@@ -70,7 +70,19 @@ li a:hover {
   left: 10%;
 }
 
-.customer-01 {
+.customer-01, .customer-02 {
   width: 30%;
   float: right;
+}
+
+.customer {
+  font-family: 'Kalam', cursive;
+  float: right;
+  color: #3b393b;
+}
+
+footer {
+  background-color: #3b393b;
+  color: #fff;
+  height: 50%; 
 }
