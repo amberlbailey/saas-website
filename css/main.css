@@ -105,6 +105,7 @@ footer {
   background-color: #f7882f;
   border-radius: 3px;
   padding: 10px;
+  border: none;
 }
 
 .start-btn:hover {
@@ -115,7 +116,7 @@ footer {
   text-align: center;
 }
 
-.price h3, p{
+.price h3 {
   font-family: 'Kalam', cursive;
   color: #3b393b;
   text-align: center;
@@ -123,6 +124,11 @@ footer {
 }
 
 footer p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+p .join {
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
