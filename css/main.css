@@ -68,8 +68,9 @@ nav li a:hover {
 }
 
 .customer-01, .customer-02 {
-  width: 30%;
-  float: right;
+  width: 100px;
+  float: left;
+  padding: 0 10px 10px 0;
 }
 
 .customer {
