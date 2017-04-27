@@ -115,7 +115,7 @@ footer {
   text-align: center;
 }
 
-.price h3 {
+.price p, .price h3 {
   font-family: 'Kalam', cursive;
   color: #3b393b;
   text-align: center;
@@ -130,4 +130,19 @@ footer p {
 p .join {
   color: #fff;
   font-family: 'Lato', sans-serif;
+}
+
+.content p {
+  color: #fff;
+}
+
+.price ul li {
+  text-align: center;
+  list-style: none;
+}
+
+div .pricing {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
