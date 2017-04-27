@@ -97,8 +97,7 @@ footer {
 }
 
 .cloud {
-  width: 50%;
-  display: inline-block;
+  float: right;
 }
 
 .start-btn {
