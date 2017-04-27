@@ -30,6 +30,10 @@ header {
   text-align: center;
 }
 
+div p {
+  color: #fff;
+}
+
 header,p {
   font-family: 'Lato', sans-serif;
 }
@@ -84,5 +88,15 @@ li a:hover {
 footer {
   background-color: #3b393b;
   color: #fff;
-  height: 50%; 
+  height: 50%;
+}
+
+li .cards {
+  font-family: 'Lato', sans-serif;
+  color: #3b393b;
+}
+
+.pricing {
+  background-color: #f0f0f0;
+  border-radius: 3px;
 }
