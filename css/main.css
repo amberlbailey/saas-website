@@ -16,10 +16,6 @@ h2 {
   color: #fff;
 }
 
-.banner p {
-  color: #fff;
-}
-
 span, h1, h3 {
   color: #f7882f;
   font-family: 'Kalam', cursive;
@@ -30,12 +26,9 @@ header {
   text-align: center;
 }
 
-div p {
-  color: #fff;
-}
-
-header,p {
+header,p,ul {
   font-family: 'Lato', sans-serif;
+  color: #3b393b;
 }
 
 li, a {
@@ -99,4 +92,9 @@ li .cards {
 .pricing {
   background-color: #f0f0f0;
   border-radius: 3px;
+}
+
+.cloud {
+  width: 50%;
+  display: inline-block;
 }
