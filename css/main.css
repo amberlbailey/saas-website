@@ -12,11 +12,11 @@ body {
   height:65px;
 }
 
-h2 {
+h1 {
   color: #fff;
 }
 
-span, h1, h3 {
+span, .logo, h2 {
   color: #f7882f;
   font-family: 'Kalam', cursive;
 }
