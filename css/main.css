@@ -168,3 +168,11 @@ div .pricing {
   width: 700px;
   float: right;
 }
+
+.join {
+  color: #fff;
+}
+
+.john, .martha {
+  max-width: 500px;
+}
