@@ -181,6 +181,17 @@ td {
   color: #db7f34;
 }
 
+.price-term p {
+  font-family: Kalam, cursive;
+  color: #3b393b;
+  text-align: center;
+}
+
+.price-term h2 {
+  text-align: center;
+  color: #3b393b;
+}
+
 @media only screen and (min-width: 60em) {
 
   .table-wrap {
