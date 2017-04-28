@@ -177,3 +177,14 @@ div .pricing {
 .price-icon {
   text-align: center;
 }
+
+td {
+  color: #db7f34;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrap {
+    overflow: visible;
+  }
+}
