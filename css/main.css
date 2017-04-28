@@ -7,6 +7,7 @@ body {
   margin: 0;
 }
 
+<!--Navigation-->
 h1 {
   color: #fff;
 }
@@ -18,7 +19,12 @@ span, .logo, h2 {
 
 header {
   background-color: #6b7c8e;
+  color: #fff;
   text-align: center;
+}
+
+header h1 {
+  color: #fff;
 }
 
 header, p {
@@ -39,6 +45,8 @@ nav li a:hover {
   border-radius: 3px;
 }
 
+<!--Banner-->
+
 .banner .btn {
   background-color: #f7882f;
   border-radius: 3px;
@@ -55,6 +63,12 @@ nav li a:hover {
   overflow: hidden;
 }
 
+.img-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-width: 700px;
+}
 
 .content {
   position: absolute;
@@ -62,6 +76,8 @@ nav li a:hover {
   top: 10%;
   left: 10%;
 }
+
+<!--Reviews-->
 
 .customer-01, .customer-02 {
   width: 100px;
@@ -75,11 +91,20 @@ nav li a:hover {
   color: #3b393b;
 }
 
+<!--Footer-->
+
 footer {
   background-color: #3b393b;
   color: #fff;
   height: 50%;
 }
+
+footer p {
+  color: #fff;
+  font-family: Lato, sans-serif;
+}
+
+<!--Pricing-->
 
 .cards li {
   list-style: none;
@@ -115,11 +140,6 @@ footer {
   margin: 0;
 }
 
-footer p {
-  color: #fff;
-  font-family: Lato, sans-serif;
-}
-
 p .join {
   color: #fff;
   font-family: Lato, sans-serif;
@@ -140,13 +160,7 @@ div .pricing {
   margin-right: auto;
 }
 
-.img-banner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  min-width: 700px;
-
-}
+<!--Features-->
 
 .other, .match {
   width: 45%;
@@ -178,21 +192,7 @@ div .pricing {
   text-align: center;
 }
 
-td {
-  color: #db7f34;
-}
-
-.price-term p {
-  font-family: Kalam, cursive;
-  color: #3b393b;
-  text-align: center;
-}
-
-.price-term h2 {
-  text-align: center;
-  color: #3b393b;
-}
-
+<!--Table-->
 .views, .name, .date {
   width: 7em;
 }
@@ -214,6 +214,21 @@ div .table-wrapper {
   height: 300px;
   overflow: auto;
   margin-top: 5px;
+}
+
+td {
+  color: #db7f34;
+}
+
+.price-term p {
+  font-family: Kalam, cursive;
+  color: #3b393b;
+  text-align: center;
+}
+
+.price-term h2 {
+  text-align: center;
+  color: #3b393b;
 }
 
 figure img {
