@@ -176,3 +176,11 @@ div .pricing {
 .john, .martha {
   max-width: 500px;
 }
+
+.icon-price {
+  max-width: 100px;
+}
+
+.price-icon {
+  text-align: center;
+}
