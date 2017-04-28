@@ -55,6 +55,7 @@ nav li a:hover {
   overflow: hidden;
 }
 
+
 .content {
   position: absolute;
   transform: translate(-5%, -5%);
@@ -213,4 +214,22 @@ div .table-wrapper {
   height: 300px;
   overflow: auto;
   margin-top: 5px;
+}
+
+figure img {
+  float: right;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .about  {
+    max-width: 700px;
+    float: right;
+  }
+
+  .about-product {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
