@@ -68,6 +68,7 @@ nav li a:hover {
   padding: 0 10px 10px 0;
 }
 
+
 .customer {
   font-family: Kalam, cursive;
   float: right;
@@ -213,9 +214,4 @@ div .table-wrapper {
   height: 300px;
   overflow: auto;
   margin-top: 5px;
-}
-
-@media only screen and (min-width: 60em) {
-
-
 }
