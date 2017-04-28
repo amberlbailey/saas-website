@@ -200,7 +200,7 @@ td {
   width: 100px;
 }
 
-div .wrapper {
+div .table-wrapper {
   overflow: hidden;
   overflow-y: scroll;
 }
