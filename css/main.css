@@ -155,3 +155,16 @@ div .pricing {
   min-width: 700px;
 
 }
+
+.other, .match {
+  width: 45%;
+}
+
+.cloud {
+  width: 50%;
+}
+
+.sync {
+  width: 700px;
+  float: right;
+}
