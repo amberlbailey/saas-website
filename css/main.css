@@ -192,9 +192,31 @@ td {
   color: #3b393b;
 }
 
+.views, .name, .date {
+  width: 7em;
+}
+
+.thread {
+  width: 100px;
+}
+
+div .wrapper {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.table-wrapper {
+  position: relative;
+}
+
+.table-scroll {
+  height: 300px;
+  overflow: auto;
+  margin-top: 5px;
+}
+
+
 @media only screen and (min-width: 60em) {
 
-  .table-wrap {
-    overflow: visible;
-  }
+
 }
