@@ -7,7 +7,6 @@ body {
   margin: 0;
 }
 
-<!--Navigation-->
 h1 {
   color: #fff;
 }
@@ -45,8 +44,6 @@ nav li a:hover {
   border-radius: 3px;
 }
 
-<!--Banner-->
-
 .banner .btn {
   background-color: #f7882f;
   border-radius: 3px;
@@ -77,8 +74,6 @@ nav li a:hover {
   left: 10%;
 }
 
-<!--Reviews-->
-
 .customer-01, .customer-02 {
   width: 100px;
   float: left;
@@ -91,8 +86,6 @@ nav li a:hover {
   color: #3b393b;
 }
 
-<!--Footer-->
-
 footer {
   background-color: #3b393b;
   color: #fff;
@@ -103,8 +96,6 @@ footer p {
   color: #fff;
   font-family: Lato, sans-serif;
 }
-
-<!--Pricing-->
 
 .cards li {
   list-style: none;
@@ -160,8 +151,6 @@ div .pricing {
   margin-right: auto;
 }
 
-<!--Features-->
-
 .other, .match {
   width: 45%;
 }
@@ -192,7 +181,6 @@ div .pricing {
   text-align: center;
 }
 
-<!--Table-->
 .views, .name, .date {
   width: 7em;
 }
@@ -237,7 +225,7 @@ figure img {
 
 @media only screen and (min-width: 38em) {
 
-  .about  {
+  .about {
     max-width: 700px;
     float: right;
   }
